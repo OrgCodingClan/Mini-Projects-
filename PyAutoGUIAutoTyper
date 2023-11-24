@@ -1,1 +1,14 @@
+#About
+This Python script is designed to automate text input using the PyAutoGUI library. It can be useful for scenarios where repetitive typing is required, such as testing or data entry. The script simulates keyboard input to repeatedly type a specified message and press "enter" at regular intervals.
+
+#code
+
+import pyautogui
+import time
+time.sleep(3)
+
+while(True):
+    pyautogui.typewrite("Type your Message here")
+    pyautogui.press("enter")
+time.sleep(3)
 
